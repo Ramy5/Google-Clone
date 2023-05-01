@@ -1,0 +1,15 @@
+.btn {
+  animation: btn-move 0.7s 0.2s backwards;
+}
+
+@keyframes btn-move {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -3,6 +3,9 @@ import "./globals.css";
 export const metadata = {
   title: "Google Clone",
   description: "Created google clone app by using Next.js 13 and Tailwind CSS",
+  icons: {
+    shortcut: "/google.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
