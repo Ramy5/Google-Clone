@@ -1,0 +1,7 @@
+.btn__rotate::before {
+  transform: rotateX(90deg);
+}
+
+.btn__rotate::after {
+  transform: rotateY(90deg);
+}
