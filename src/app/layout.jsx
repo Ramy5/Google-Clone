@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 
 export const metadata = {
@@ -14,6 +15,9 @@ export default function RootLayout({ children }) {
       <body>
         {/* PROVIDER FOR THEME WILL PUT AROUND CONTENT HERE */}
         {children}
+
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );
