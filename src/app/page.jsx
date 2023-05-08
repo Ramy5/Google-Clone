@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import HomeHeader from "@/components/HomeHeader/HomeHeader";
-import BodyForm from "@/components/HomeBody/BodyForm";
+import HomeHeader from "@/components/Home/HomeHeader/HomeHeader";
+import BodyForm from "@/components/Home/HomeBody/BodyForm";
 
 const Home = () => {
   return (

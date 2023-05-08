@@ -11,4 +11,8 @@
   .footer-link {
     @apply hover:underline hover:text-cyan-700 transition-colors cursor-pointer;
   }
+
+  .header-icon {
+    @apply text-4xl hover:bg-cyan-200 rounded-full transition duration-100 p-2 animate-spin;
+  }
 }
