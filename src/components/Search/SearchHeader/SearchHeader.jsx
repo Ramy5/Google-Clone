@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const SearchHeader = () => {
   return (
-    <header className="py-6 px-8 sticky top-0 z-50">
-      <div className="flex justify-between items-center flex-wrap mb-6">
+    <header className="py-4 px-6 md:py-6 md:px-8 sticky top-0 z-50">
+      <div className="flex items-center flex-wrap md:flex-nowrap mb-6">
         <Link href={"/"}>
           <Image
             className="mr-6"
@@ -23,12 +23,12 @@ const SearchHeader = () => {
 
         <SearchForm />
 
-        <div className="mr-4 ml-4 space-x-2 justify-center hidden md:flex">
+        <div className="mr-4 ml-4 space-x-2 justify-center hidden lg:flex">
           <RiSettings3Line className="header-icon" />
           <TbGridDots className="header-icon" />
         </div>
 
-        <SignButton text="Sign in" />
+        <SignButton text="Sign in" className="ml-auto md:ml-0" />
       </div>
 
       <div className="">Search Header Option</div>

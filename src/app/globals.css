@@ -13,6 +13,6 @@
   }
 
   .header-icon {
-    @apply text-4xl hover:bg-cyan-200 rounded-full transition duration-100 p-2 animate-spin;
+    @apply cursor-pointer text-4xl hover:bg-cyan-200 rounded-full transition duration-100 p-2 animate-spin;
   }
 }

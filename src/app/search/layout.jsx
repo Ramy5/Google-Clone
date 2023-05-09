@@ -2,7 +2,7 @@ import SearchHeader from "@/components/Search/SearchHeader/SearchHeader";
 import "./../globals.css";
 
 export const metadata = {
-  title: "Search page",
+  title: "Search",
   description: "Search for the text or the image",
   icons: {
     shortcut: "/google-search.png",
