@@ -15,4 +15,8 @@
   .header-icon {
     @apply cursor-pointer text-4xl hover:bg-cyan-200 rounded-full transition duration-100 p-2 animate-spin;
   }
+
+  .search-option {
+    @apply flex items-center mr-4 p-3 border-b-4 border-b-transparent cursor-pointer text-base hover:text-cyan-600 active:text-cyan-600;
+  }
 }

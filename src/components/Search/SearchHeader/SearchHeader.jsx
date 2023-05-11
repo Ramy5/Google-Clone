@@ -1,10 +1,11 @@
+import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import SearchForm from "./SearchForm";
+import SignButton from "@/components/UI/Button/SignButton";
+import SearchOption from "../SearchOption/SearchOption";
 import { RiSettings3Line } from "react-icons/ri";
 import { TbGridDots } from "react-icons/tb";
-import SignButton from "@/components/UI/Button/SignButton";
-import Link from "next/link";
 
 const SearchHeader = () => {
   return (
@@ -31,7 +32,7 @@ const SearchHeader = () => {
         <SignButton text="Sign in" className="ml-auto md:ml-0" />
       </div>
 
-      <div className="">Search Header Option</div>
+      <SearchOption />
     </header>
   );
 };
