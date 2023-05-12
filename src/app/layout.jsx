@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="relative min-h-screen selection:bg-cyan-500 selection:text-white">
         {/* PROVIDER FOR THEME WILL PUT AROUND CONTENT HERE */}
         {children}
 

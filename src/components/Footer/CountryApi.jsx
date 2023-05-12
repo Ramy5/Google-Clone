@@ -21,7 +21,7 @@ const CountryApi = () => {
 
   return (
     <>
-      <p className="pb-3 border-b border-gray-300 text-cyan-600 text-base">
+      <p className="pb-3 border-b border-gray-300 text-cyan-600 text-base text-center sm:text-start">
         {country} - {countryCode}
       </p>
     </>

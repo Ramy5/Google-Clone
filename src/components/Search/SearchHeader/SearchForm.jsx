@@ -19,6 +19,7 @@ const SearchForm = () => {
     e.preventDefault();
     if (!searchValue.trim()) return;
     router.push(`/search/web/?searchTerm=${searchValue}`);
+    document.getElementById("input-form").blur();
   };
 
   return (
@@ -27,6 +28,7 @@ const SearchForm = () => {
       className="md:mr-auto px-6 flex items-center flex-grow border border-gray-200 rounded-full shadow-lg order-3 md:order-none mt-6 md:mt-0 w-full md:max-w-md lg:max-w-xl xl:max-w-2xl"
     >
       <input
+        id="input-form"
         type="text"
         name="Search"
         onChange={searchChangeHandler}

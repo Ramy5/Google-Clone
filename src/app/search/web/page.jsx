@@ -1,3 +1,4 @@
+import SearchWebResults from "@/components/Search/SearchResults/SearchWebResults";
 import React from "react";
 
 const WebSearch = async ({ searchParams }) => {
@@ -17,13 +18,7 @@ const WebSearch = async ({ searchParams }) => {
       "There is no results for this search, please try another word"
     );
 
-  return (
-    <>
-      {data?.items.map((result) => (
-        <h2>{result.title}</h2>
-      ))}
-    </>
-  );
+  return <>{data?.items && <SearchWebResults results={data} />}</>;
 };
 
 export default WebSearch;
