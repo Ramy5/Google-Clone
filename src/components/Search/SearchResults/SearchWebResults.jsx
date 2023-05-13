@@ -20,7 +20,7 @@ const SearchWebResults = ({ results }) => {
               {result.formattedUrl}
             </Link>
             <Link
-              className="text-xl truncate font-semibold text-cyan-800 hover:underline hover:decoration-cyan-700 group-hover:underline group-hover:decoration-cyan-800"
+              className="text-xl truncate font-semibold text-cyan-800 hover:underline hover:decoration-cyan-700 group-hover:underline group-hover:decoration-cyan-800 visited:text-blue-600 active:text-blue-600"
               href={result.link}
             >
               {result.title}
