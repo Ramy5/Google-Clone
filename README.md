@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Google Clone (Practice on Next.js 13 and Tailwind CSS)
 
-## Getting Started
+This is a Google search engine clone built using Next.js 13 and Tailwind CSS. It uses Google's custom search API to fetch search results and displays them in a similar format to Google's search results page. The project is designed to be responsive and mobile-friendly.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+
+## Features
+
+- Search the web using Google's search algorithm
+- View search results with clickable links and descriptions
+- Navigate to Google's image search page
+- Responsive design for desktop and mobile devices
+
+## Demo
+
+You can view a live demo of the project at [Vercel](https://google-clone-nextjs-tailwind.vercel.app/).
+
+## Installation
+
+To run the project locally, you'll need to clone the repository and install the dependencies using `npm` or `yarn`.
+
+```
+git clone https://github.com/Ramy5/Google-Clone.git
+cd Google-Clone
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+yarn install
+```
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+You'll also need to obtain a Google custom search API key and search engine ID. You can follow the instructions in the [Google Custom Search API documentation](https://developers.google.com/custom-search/v1/overview) to obtain these.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Create a `.env.local` file in the root of the project and add the following environment variables:
+```
+GOOGLE_API_KEY=<your Google custom search API key>
+GOOGLE_CONTEXT=<Your Google CX context>
+```
+Then, start the development server:
+```
+npm run dev
+```
+Or
+```
+yarn dev
+```
 
-## Learn More
+The project should be running at [http://localhost:3000](http://localhost:3000).
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To use the search engine, simply enter your search query in the search bar and hit the Enter key or click the "Google Search" button. You can navigate to the image search page by clicking the link at the bottom of the search results page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+This project was built using the following technologies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
