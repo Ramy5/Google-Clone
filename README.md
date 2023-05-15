@@ -1,6 +1,6 @@
 # Google Clone (Practice on Next.js 13 and Tailwind CSS)
 
-This is a Google search engine clone built using Next.js 13 and Tailwind CSS. It uses Google's custom search API to fetch search results and displays them in a similar format to Google's search results page. The project is designed to be responsive and mobile-friendly.
+The Google Clone project is a web application that aims to replicate the functionality and design of Google's search engine. It is built using Next.js and Tailwind CSS, and it utilizes Google's custom search API to fetch search results and display them in a similar format to Google's search results page. The project is designed to be responsive and mobile-friendly, allowing users to search the web on both desktop and mobile devices. The search engine allows users to enter search queries and view search results with clickable links and descriptions. Additionally, the project includes link to navigate to Google's image search page.
 
 ## Table of Contents
 
