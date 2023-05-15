@@ -12,7 +12,11 @@ const SearchForm = () => {
   const router = useRouter();
   const [searchValue, setSearchValue] = useState(searchWord || "");
 
-  const emptyFieldHandler = () => setSearchValue("");
+  const emptyFieldHandler = () => {
+    setSearchValue("");
+    document.getElementById("input-form").focus();
+  };
+
   const searchChangeHandler = (e) => setSearchValue(e.target.value);
 
   const searchSubmitHandler = (e) => {

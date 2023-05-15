@@ -4,7 +4,7 @@ import CountryApi from "./CountryApi";
 
 const Footer = () => {
   return (
-    <footer className="absolute bottom-0 bg-gray-100 text-gray-500 py-4 px-6 w-full text-sm">
+    <footer className="absolute bottom-0 bg-gray-100 text-gray-500 py-4 px-6 w-full text-sm z-20">
       <CountryApi />
 
       <div className="pt-3 flex flex-col sm:flex-row justify-between items-center space-y-6 sm:space-y-0">
