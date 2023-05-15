@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="pt-3 flex flex-col sm:flex-row justify-between items-center space-y-6 sm:space-y-0">
         <ul className="flex items-center space-x-6 flex-wrap justify-center space-y-2">
-          <li className="footer-link">About</li>
+          <li className="footer-link mt-2">About</li>
           <li className="footer-link">Advertising</li>
           <li className="footer-link">Business</li>
           <li className="footer-link">How Search Works</li>

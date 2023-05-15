@@ -3,9 +3,10 @@ import React from "react";
 
 const ImageSearch = async ({ searchParams }) => {
   const searchWord = searchParams.searchTerm;
+  const searchStart = searchParams.start || 1;
 
   const api = await fetch(
-    `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT}&q=${searchWord}&searchType=image`
+    `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT}&q=${searchWord}&searchType=image&start=${searchStart}`
   );
 
   if (!api.ok)

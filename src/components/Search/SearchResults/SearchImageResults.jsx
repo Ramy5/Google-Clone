@@ -1,10 +1,11 @@
+import Pagination from "@/components/UI/Pagination/Pagination";
 import Link from "next/link";
 import React from "react";
 
 const SearchImageResults = ({ results }) => {
   return (
     <>
-      <div className="px-8 mt-4 w-full mx-auto pb-48 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="px-8 mt-4 w-full mx-auto pb-52 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {results.items.map((result) => {
           return (
             <div key={result.link} className="cursor-pointer">
@@ -32,6 +33,9 @@ const SearchImageResults = ({ results }) => {
             </div>
           );
         })}
+
+        {/* Pagination */}
+        <Pagination />
       </div>
     </>
   );

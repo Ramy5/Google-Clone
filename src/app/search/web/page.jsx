@@ -3,9 +3,10 @@ import React from "react";
 
 const WebSearch = async ({ searchParams }) => {
   const searchWord = searchParams.searchTerm;
+  const searchStart = searchParams.start || 1;
 
   const api = await fetch(
-    `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT}&q=${searchWord}`
+    `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT}&q=${searchWord}&start=${searchStart}`
   );
 
   if (!api.ok)

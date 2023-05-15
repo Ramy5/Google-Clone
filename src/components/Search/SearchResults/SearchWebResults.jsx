@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import parse from "html-react-parser";
+import Pagination from "@/components/UI/Pagination/Pagination";
 
 const SearchWebResults = ({ results }) => {
   return (
-    <div className="w-full mx-auto pb-44 md:pb-28 px-8 md:pl-24 lg:pl-48">
+    <div className="w-full mx-auto pb-52 px-8 md:pl-24 lg:pl-48">
       <p className="text-gray-600 text-sm mb-4">
         About {results.searchInformation?.formattedTotalResults} results (
         {results.searchInformation?.formattedSearchTime} seconds)
@@ -29,6 +30,9 @@ const SearchWebResults = ({ results }) => {
           </div>
         );
       })}
+
+      {/* Pagination */}
+      <Pagination />
     </div>
   );
 };
