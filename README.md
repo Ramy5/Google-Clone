@@ -20,6 +20,10 @@ This is a Google search engine clone built using Next.js 13 and Tailwind CSS. It
 ## Demo
 
 You can view a live demo of the project at [Vercel](https://google-clone-nextjs-tailwind.vercel.app/).
+<div style="display: flex">
+  <img style="width: 400px" src="https://github.com/Ramy5/Google-Clone/assets/74501165/43b86f26-9ba4-4138-a187-75da83b1ca96" alt="Preview">
+  <img style="width: 400px" src="https://github.com/Ramy5/Google-Clone/assets/74501165/988dafa0-e045-447b-9a09-46bb989766ef" alt="Preview">
+</div>
 
 ## Installation
 
