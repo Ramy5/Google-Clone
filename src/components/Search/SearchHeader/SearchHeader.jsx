@@ -17,7 +17,9 @@ const SearchHeader = () => {
             width={120}
             height={40}
             style={{ width: "120px", height: "40px" }}
-            src={"/google-logo.png"}
+            src={
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+            }
             alt="Google Logo"
           />
         </Link>

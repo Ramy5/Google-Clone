@@ -14,7 +14,9 @@ const Home = () => {
         width={300}
         height={100}
         style={{ width: "300px", height: "100px" }}
-        src={"/google-logo.png"}
+        src={
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+        }
         className="m-auto mt-20 mb-8"
         alt="Google Logo"
       />
